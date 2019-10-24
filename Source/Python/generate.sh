@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir -p "$2/$3"
+
 pushd $1
 python3 -m grpc_tools.protoc -I./ \
                              --python_out="$2/$3" \
