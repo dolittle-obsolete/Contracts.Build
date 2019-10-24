@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../Build/MSBuild/default.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>[ASSEMBLYNAME]</AssemblyName>
+        <DolittleProtoProject>../../Source</DolittleProtoProject>
+        <DolittleProtoRoot>../../Source</DolittleProtoRoot>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Dolittle.Protobuf.MSBuild" Version="1.*"/>
+    </ItemGroup>
+</Project>
