@@ -3,7 +3,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <AssemblyName>[ASSEMBLYNAME]</AssemblyName>
+        <AssemblyName>{PACKAGENAME}</AssemblyName>
         <DolittleProtoProject>../../Source</DolittleProtoProject>
         <DolittleProtoRoot>../../Source</DolittleProtoRoot>
     </PropertyGroup>
