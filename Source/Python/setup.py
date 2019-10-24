@@ -6,7 +6,7 @@ with open('{README_FILE}') as f:
 setup(
   name = '{PACKAGENAME}',
   packages = ['{PACKAGENAME}'],
-  version = '1.0.0',
+  version = '{VERSION}',
   license='MIT',
   long_description=long_description,
   long_description_content_type='text/markdown',
